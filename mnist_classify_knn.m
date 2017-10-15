@@ -1,8 +1,8 @@
 %% Calculate the test result
 clear;
 
-load('MNISTtrain_49_home_alpha.mat');
-load('MNISTtest_49_home_alpha.mat');
+load('MNISTtrain_49_all.mat');
+load('MNISTtest_49_all.mat');
 
 fold_num = 10;
 
