@@ -26,7 +26,6 @@ toc;
 
 %================== Using gabors
 tic;
-%optimal_k = knnCrossValidation(train_moment_feature, train_labels, fold_num);
 pred = knnclassify(test_gabor_feature', train_gabor_feature', train_labels', optimal_k);
 acc = mean(test_labels(:) == pred(:));
 fprintf('Test Accuracy For gabors: %0.3f%%\n', acc * 100);
