@@ -1,3 +1,7 @@
+%=======================================================
+% Used to generate heat content feature from inputGraph
+%=======================================================
+
 function [ hc ] = hcMatNew(inputGraph,step_t,lazy_step)
 
 P = inputGraph.P;
