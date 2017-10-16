@@ -1,5 +1,8 @@
-%% STEP 1: load data
+% =================================================================
+% Main program for MNIST image recognition --- Logistic regression classification
+% =================================================================
 
+%% STEP 1: load data
 clc;
 clear;
 close all;
