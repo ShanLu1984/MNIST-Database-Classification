@@ -1,6 +1,6 @@
-%=============================================
-% Main program for MNIST image recognition
-%=============================================
+%===============================================================
+% Main program for MNIST image recognition -- feature generation
+%===============================================================
 
 %% Step 1: load MNIST training images and labels
 
