@@ -1,3 +1,5 @@
+% Used to generate graph from image pixel information
+
 function [inputGraph] = graphGenNew(image)
 
 J=image;
@@ -63,17 +65,4 @@ inputGraph.GL=D^(-1/2)*(D-A)*D^(-1/2);
 inputGraph.GL(:,inputGraph.B)=[];
 inputGraph.GL(inputGraph.B,:)=[];
 
-% sb=size(B,1);
-% Bs=sort(B,'descend');
-% for j=1:sb
-%     i=Bs(j);
-%     Delta(i,:)=[];
-%     Delta(:,i)=[];
-%     Degree(i,:)=[];
-%     Degree(:,i)=[];
-% end
-% Delta_unsym=Degree^(-1)*Delta;
-% Delta_sym=Degree^(-1/2)*Delta*Degree^(-1/2);
-
 end
-
