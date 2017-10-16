@@ -1,3 +1,7 @@
+% =================================================================
+% Main program for MNIST image recognition --- SVM classification
+% =================================================================
+
 %% STEP 1: load data
 close all;
 clc;
