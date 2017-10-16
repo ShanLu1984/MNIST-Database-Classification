@@ -1,3 +1,7 @@
+% ================================================================
+% Main program for MNIST image recognition -- knn classification. 
+% =================================================================
+
 %% Calculate the test result
 clear;
 
