@@ -1,6 +1,8 @@
 # MNIST Database Classification
 
 ### Introduction
+Image classification and recognition is an important machine learning task that can be used in variety of applications. Feature engineering is a fundamental step for image classification algorithms. Our second project proposed a new feature for image understanding and classification. Based on the theory of diffusion on graph, we extracted a time series from the graph as a new image feature. The feature is robust to rotation/scaling/mutation of images. We use K-nearest-neighbor (knn), logistic regression and SVM to classify images in MINIST (MNIST: a database of handwritten digits, a standard image retrieval/classification benchmarks) to test the performance of the new feature. The classification error rate with our proposed feature and the combination of other key features of image achieved a decreasing by 5.4% comparing to the results without new feature. Two papers were published in ICIP, 2014 (http://ieeexplore.ieee.org/document/7025411/) and 2016 (http://ieeexplore.ieee.org/document/7532316/). Github: https://github.com/ShanLu1984/MNIST-Database-Classification.
+
 * About the database:
  MNIST is a database of handwritten digits, available from this website http://yann.lecun.com/exdb/mnist/. It contains a training
 group of 60, 000 images and a testing group of 10, 000 images. One property of this dataset is that all the images are hand written digits with standard size and contrast, which is very "similar" already.
